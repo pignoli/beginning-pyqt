@@ -36,7 +36,7 @@ class EmptyWindow(QWidget):
         text.move(105, 15)
 
         #image = "images/world.png"
-        image = "C:\\Users\\wmish\\OneDrive\\Documents\\GitHub\\beginning-pyqt\\ch02_GettingStarted\\images\\world.pn"
+        image = "images/world.png"
         try:
             with open(image):
                 world_image = QLabel(self)
